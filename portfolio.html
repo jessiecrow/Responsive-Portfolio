@@ -1,46 +1,71 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
 	<meta charset="utf-8">
-	<title>My Portfolio</title>
+	<title>Jessie's Basic-ish Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/mediaqueries.css">
 </head>
+
 <body>
-	<div id="header">
-		<div class="myname">
-			<p>Jessie Crow</p>
+		<!-- Nav Bar -->
+	<header>
+		<div id="header">
+			<h1>Jessie Crow</h1>
+
+			<nav>
+				<a href="index.html" class="nav-link">About</a>
+				<a href="portfolio.html" class="nav-link">Portfolio</a>
+				<a href="contact.html" class="nav-link2">Contact</a>
+			</nav>
 		</div>
-
-		<div class="nav-options">
-			<a href="index.html" class="nav-link">About</a>
-			<a href="portfolio.html" class="nav-link">Portfolio</a>
-			<a href="contact.html" class="nav-link">Contact</a>
-		</div>
-	</div>
-
-
-
-
-
-
-
-
-
-
-
-
-	<div id="body">
-		<div class="sidebar">
-			<h2>Connect With Me</h2>
-			<div class="inside-sb">
-				<a href="https://github.com/jessiecrow"><img src="assets/images/github.png" alt="Github" class="proficons"></a>
-				<a href="https://www.linkedin.com/in/jessie-crow-87684034/"><img src="assets/images/linkedin.png" alt="Linkedin" class="proficons"></a>
-				<a href="https://stackexchange.com/users/10622544/jessie-crow"><img src="assets/images/stov.png" alt="Stack Overflow" class="proficons"></a>
+	</header>
+		<!-- Portfolio Section -->
+	<div id="body-container">
+		<section id="content">
+			<h2>My Portfolio</h2>
+			<div class="image-row1">
+				<div class="image">
+					<a href="#" target="_blank"><img src="assets/images/hangman.jpg" alt="Hangman Game">
+					<div class="banner">Hangman</div></a>
+				</div>
+				<div class="image">
+					<a href="#" target="_blank"><img src="assets/images/rpg.jpg" alt="RPG Game">
+					<div class="banner">RPG Game</div></a>
+				</div>
 			</div>
-		</div>
+			<div class="image-row2">
+				<div class="image">
+					<a href="#" target="_blank"><img src="assets/images/trivia.jpg" alt="Trivia Game">
+					<div class="banner">Trivia Game</div></a>
+				</div>
+				<div class="image">
+					<a href="#" target="_blank"><img src="assets/images/riw.jpg" alt="Reuters Info">
+					<div class="banner">Reuters Info Widget</div></a>
+				</div>
+			</div>
+			<div class="image-row3">
+				<div class="image">
+				<a href="#" target="_blank"><img src="assets/images/rps.jpg" alt="Rock Paper Scissors">
+				<div class="banner">Rock Paper Scissors</div></a>
+				</div>
+				<div class="no-image"></div>
+			</div>
+		</section>
 	</div>
-
+		<!-- Sidebar Links -->
+	<section id="sidebar-contaier">
+		<h2>Connect With Me</h2>
+			<div id="inside-sb">
+				<a href="https://github.com/jessiecrow" target="_blank"><img src="assets/images/github.png" alt="Github" class="proficons" alt="Github Profile"></a>
+				<a href="https://www.linkedin.com/in/jessie-crow-87684034/" target="_blank"><img src="assets/images/linkedin.png" alt="Linkedin" class="proficons" alt="Linkedin Profile"></a>
+				<a href="https://stackexchange.com/users/10622544/jessie-crow" target="_blank"><img src="assets/images/stov.png" alt="Stack Overflow" class="proficons" alt="Stack Overflow Profile"></a>
+			</div>
+	</section>
+		<!-- Footer -->
 	<footer>
 		<div id="footer">
 			<p>&copy; 2017 Jessie Crow</p>
