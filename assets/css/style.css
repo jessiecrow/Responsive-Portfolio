@@ -12,12 +12,11 @@
 	}
 	header {
 		height: 100px;
-		background-color: white;
-		float: left;
 		border-bottom: 2px solid #CBCBCB;
+		background: #ffffff;
 	}
 	#nav-bar {
-		width: 100%;
+		width: 75%;
 		margin: auto;
 	}
 	h1 {
@@ -102,7 +101,7 @@
 		float: left;
 		margin: 0 26px 0 32px;
 	}
-	#sidebar-container {
+	#sidebar-content {
 		width: 28%;
 		border: solid 2px #dddddd;
 		background: #ffffff;
@@ -118,7 +117,99 @@
 		height: 62px;
 		padding: 0 2px 0 2px;	
 	}
-	.icon:hover {
+	.proficons:hover {
 		width: 70px;
 		height: 70px;
+	}
+	.image-row1 {
+		display: flex;
+		justify-content: center;
+	}
+	.image-row2 {
+		margin: 32px 0 0 0;
+		display: flex;
+		justify-content: center;
+	}
+	.image-row3 {
+		margin: 32px 0 32px 0;
+		display: flex;
+		justify-content: center;
+	}
+	.image {
+		width: 100%;
+		height: auto;
+		border: solid 1px #dddddd;
+		margin-right: 32px;
+		margin-left: 24px;
+		position: relative;
+	}
+	.image:hover {
+		border: solid 3px #4aaaa5;
+	}
+	.banner {
+		font-size: 20px;
+		font-family: serif;
+		text-align: center;
+		width: 100%;
+		padding-top: 9%;
+		padding-bottom: 9%;
+		position: absolute;
+		bottom: 10px;
+		color: #ffffff;
+		background: #4aaaa5;	
+	}
+	.profpic {
+		width: 100%;
+		height: 100%;
+	}
+	.no-image {
+		width: 100%;
+		height: auto;
+		margin-right: 32px;
+		margin-left: 24px;
+	}
+	label {
+		font-size: 18px;
+		font-family: Helvetica;
+		font-weight: bold;
+		color: #777777;
+	}
+
+	input {
+		font-family: Helvetica;
+		color: #cccccc;
+		width: 100%;
+		display: block;
+		border: solid 4px #dddddd;
+	}
+
+	textarea {
+		font-family: Helvetica;
+		color: #cccccc;
+		width: 100%;
+		display: block;
+		border: solid 4px #dddddd;
+	}
+
+	#submit {
+		font-size: 18px;
+		font-family: Helvetica;
+		color: #ffffff;
+		text-align: center;
+		width: 116px;
+		padding: 17px;
+		border: none;	
+		background: #4aaaa5;
+	}
+	footer {
+		font-size: 14px;
+		font-family: sans-serif;
+		color: #dddddd;
+		text-align: center;
+		padding: 32px;
+		margin: 35px 0 0 0;
+		border-top: solid 9px #4aaaa5;
+		background: #666666;
+		clear: both;
+		position: relative;
 	}

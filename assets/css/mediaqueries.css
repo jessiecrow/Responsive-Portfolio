@@ -1,121 +1,133 @@
-	.myname{
-		letter-spacing: .1em;
-		float: left;
-		color: white;
-		padding-top: 30px;
-		height: 70px;
-		width: 340px;
-		background-color: #4AAAA5;
-		margin-left: 150px;
-		text-align: center;
-		font-family: 'Georgia', Times, Times New Roman, serif;
+@media only screen and (max-width: 980px) {
+	#nav-bar {
+		width: 90%;
 	}
-	.myname p{
-		font-size: 200%;
+	h1 { 
+		width: 30%;
 	}
-	.nav-options{
-		float: left;
-		color: white;
-		background-color: white;
-		height: 65px;
-		width: 300px;
-		float: right;
-		margin-right: 282px;
-		padding-top: 35px;
-		text-align: center;
-		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	#body-container {
+		width: 90%;
 	}
-	.nav-link{
-		border-right: 1px solid #CBCBCB;
-		padding-right: 20px;
-		padding-left: 20px;
-		color: #8E989C;
-		text-decoration: none;
+	#content {
+		width: 65%;
 	}
-	#body{
-		height: 530px;
+	#content p {
+		line-height: 24px;
+		clear: both;
+	}
+	#picofme {
+		width: 80%;
+		margin: 0 32px 20px 32px;
+	}
+	#sidebar-content {
+		width: 33%;
+	}
+}
+@media only screen and (max-width: 768px) {
+	#nav-bar {
+		width: 82%;
+	}
+	h1 { 
+		width: 30%;
+	}
+	#body-container {
+		width: 82%;
+		margin: 45px auto 45px auto;
+	}
+	#content {
 		width: 100%;
-		float: left;
+		float: none;
 	}
-	#footer{
-		background-color: #666666;
-		height: 95px;
+	#content p {
+		line-height: 24px;
+		clear: none;
+	}
+	#picofme {
+		width: 50%;
+		margin: 0 32px 20px 32px;
+	}
+	#sidebar-content {
 		width: 100%;
-		float: left;
-		border-top: 7px solid #4AAAA5;
+		margin: 35px auto 45px auto;
+		float: none;
+	}
+	#sidebar-content h3 {
+		text-align: left;
+	}
+	#inside-sb {
+		margin: 0 0 0 27px;
+		justify-content: flex-start;
+	}
+}
+@media only screen and (max-width: 640px) {
+	#nav-bar {
+		width: 100%;
+	}
+	h1 { 
+		width: 100%;
+	}
+	#body-container {
+		width: 95%;
+		margin: 45px auto 45px auto;
+	}
+	nav {
+		width:100%;
 		text-align: center;
-		color: white;		
+		float: none;
+		clear: both;
+		padding: 10px 0 10px 0;
+		border-bottom: solid #cccccc;
+		background: #ffffff;
 	}
-	#footer p{
-		margin-top: 33px;
+	#content {
+		width: 100%;
+		float: none;
 	}
-	.proficons{
-		height: 50px;
-		width: 50px;
-		padding: 5px;
-		margin: 3px;		
+	#content p {
+		line-height: 24px;
 	}
-	.aboutme{
-		width: 650px;
-		height: 450px;
-		background-color: white;
-		float: left;
-		border: 1px solid #CBCBCB;
-		margin-left: 150px;
-		margin-top: 40px;		
+	#picofme {
+		width: 60%;
+		float: none;
+		margin: 0 32px 20px 32px;
 	}
-	.picture img{
-		padding-top: 6px;
-		padding-right: 20px;
-		padding-bottom: 10px;
-		height: 126px;
-		width: 170px;
-		float: left;
+	#sidebar-content {
+		width: 100%;
+		margin: 35px auto 0 auto;
+		float: none;
 	}
-	.aboutme h2{
-		margin: 20px;
-		font-family: 'Georgia', Times, Times New Roman, serif;
-		padding-left: 5px;
-		color: #4AAAA5;
-		border-bottom: 3px solid #DCDCDC;
-		padding-bottom: 15px;
+	#sidebar-content h3 {
+		text-align: left;
 	}
-	.inside-aboutme{
-		height: 330px;
-		width: 608px;
-		margin: 20px;
-		line-height: 1.5em;
-		color: #8E989C;
-		font-size: 20px;
-		background-color: white;
+	#inside-sb {
+		margin: 0 0 0 27px;
+		justify-content: left;
 	}
-	.sidebar{
-		width: 270px;
-		height: 200px;
-		background-color: white;
-		margin-top: 40px;
-		margin-right: 300px;
-		float: right;
-		border: 1px solid #CBCBCB;
-		font-family: 'Georgia', Times, Times New Roman, serif;
+	.image-row1 {
+		margin: 0 32px 0 32px;
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: column;
 	}
-	.sidebar h2{
-		color: #4AAAA5;
-		padding-left: 5px;
-		margin: 20px;
-		border-bottom: 2px solid #F3F3F3;
-		padding-bottom: 10px;
+	.image-row2 {
+		margin: 0 32px 0 32px;
+		display: flex;
+		justify-content: flex-end;
+		flex-direction: column;
 	}
-	.inside-sb{
-		text-align: center;
-		background-color: white;
-		height: 100px;
-		width: 269px;
+	.image-row3 {
+		margin: 0 32px 32px 32px;
+		display: flex;
+		justify-content: flex-end;
+		flex-direction: column;
+	}
+	.image {
+	margin: 0 0 32px 0;
+	}
+	.no-image {
+	width: 0;
+	height: 0;
+	margin: 0;
 	}
 
-
-
-
-
-
-</style>
+}
